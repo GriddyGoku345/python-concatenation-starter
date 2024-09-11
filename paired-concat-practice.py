@@ -10,12 +10,18 @@
 # Create variables to store your first, middle, and last name
 # Have Python print a message that contains your concatenated full name, i.e., your combined first, middle and last names
 
+first_name = 'Isaac'
+last_name = 'Bissonette'
+middle_name = 'Levi'
+print(f'{first_name} {middle_name} {last_name}')
 
 
 # Part 2
 # Assume you're building a Space Invaders game
 # Use concatenation to create and display a custom welcome message that includes the player's first name
 
+print('what is your name:')
+user_name = input()
 
 
 # Part 3
